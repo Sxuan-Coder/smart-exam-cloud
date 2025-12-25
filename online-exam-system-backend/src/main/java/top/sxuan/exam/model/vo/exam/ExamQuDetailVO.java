@@ -1,0 +1,34 @@
+package top.sxuan.exam.model.vo.exam;
+
+import top.sxuan.exam.model.entity.Option;
+import lombok.Data;
+
+import java.util.List;
+
+/**
+ */
+@Data
+public class ExamQuDetailVO {
+    private static final long serialVersionUID = 1L;
+
+    /**
+     * 图片
+     */
+    private String image;
+
+    /**
+     * 题目内容
+     */
+    private String content;
+    /**
+     * 答案内容
+     */
+    private List<OptionVO> answerList;
+    // 试题类型
+    private Integer quType;
+    /**
+     * 排序
+     */
+    private Integer sort;
+
+}

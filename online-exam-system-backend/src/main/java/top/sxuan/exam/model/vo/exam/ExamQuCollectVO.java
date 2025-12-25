@@ -1,0 +1,38 @@
+package top.sxuan.exam.model.vo.exam;
+
+import top.sxuan.exam.model.entity.ExamQuAnswer;
+import top.sxuan.exam.model.entity.Option;
+import lombok.Data;
+
+import java.util.List;
+
+/**
+ */
+@Data
+public class ExamQuCollectVO {
+    /**
+     * 题目ID
+     */
+    private Integer id;
+    /**
+     * 图片
+     */
+    private String image;
+    /**
+     * 题干
+     */
+    private String title;
+    /**
+     * 选项
+     */
+    private List<Option> option;
+    /**
+     * 我的答案
+     */
+    private String myOption;
+
+    /**
+     * 试题类型
+     */
+    private Integer quType;
+}
