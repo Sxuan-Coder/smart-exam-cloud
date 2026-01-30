@@ -1,0 +1,34 @@
+// sidebar
+$menuText: #64748b; // 现代板岩灰
+$menuActiveText: #0066FF; // 活力蓝
+$subMenuActiveText: #0066FF;
+
+$menuBg: #ffffff; // 纯白侧边栏
+$menuHover: #f1f5f9;
+
+$subMenuBg: #ffffff;
+$subMenuHover: #f8fafc;
+
+$sideBarWidth: 240px;
+
+// 现代活力配色方案
+$colorPrimary: #0066FF;
+$colorSuccess: #10B981;
+$colorWarning: #F59E0B;
+$colorDanger: #EF4444;
+$colorInfo: #6B7280;
+
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  colorPrimary: $colorPrimary;
+  colorSuccess: $colorSuccess;
+  colorWarning: $colorWarning;
+  colorDanger: $colorDanger;
+}
