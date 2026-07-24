@@ -40,6 +40,26 @@ Smart Exam Cloud 是一款功能完整、界面友好、部署简单的智慧考
 
 > ⚠️ 本项目面向学习。生产环境部署前，请务必阅读 [安全须知](#安全须知)。
 
+## 架构图
+
+<h4 align="center">全局架构</h4>
+<p align="center">
+  <img src="docs/architecture/01-global-architecture.png" alt="全局架构图" width="860">
+</p>
+<p align="center"><sub>用户角色 · 前端 · 接入层 · 后端服务 · 数据存储 · AI 能力的整体关系</sub></p>
+
+<h4 align="center">系统分层架构</h4>
+<p align="center">
+  <img src="docs/architecture/02-layered-architecture.png" alt="系统分层架构图" width="860">
+</p>
+<p align="center"><sub>表现层 → 接入与安全 → 应用控制 → 领域服务 → 数据访问 → 基础设施</sub></p>
+
+<h4 align="center">AI 能力架构</h4>
+<p align="center">
+  <img src="docs/architecture/03-ai-capability-architecture.png" alt="AI 能力架构图" width="860">
+</p>
+<p align="center"><sub>AI 场景 → LangChain4j 编排中枢 → LLM / Dify / Embedding · Milvus</sub></p>
+
 ## 功能特性
 
 ### 学生端 — 沉浸式学习体验
